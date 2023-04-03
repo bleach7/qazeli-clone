@@ -29,7 +29,7 @@
   }
 
   body {
-    @apply bg-white text-base font-normal text-black;
+    @apply bg-white font-montserrat text-base font-normal text-black;
   }
 
   #root {

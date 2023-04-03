@@ -6,7 +6,12 @@ export default {
       center: true,
       padding: "25px",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        montserrat: ["Montserrat, sans-serif", "system-ui"],
+        "cormorant-infant": ["Cormorant Infant, serif", "system-ui"],
+      },
+    },
   },
   plugins: [],
 };

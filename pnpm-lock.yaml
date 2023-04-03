@@ -1,6 +1,12 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@fontsource/cormorant-infant':
+    specifier: ^4.5.11
+    version: 4.5.11
+  '@fontsource/montserrat':
+    specifier: ^4.5.14
+    version: 4.5.14
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -373,6 +379,14 @@ packages:
     resolution: {integrity: sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/cormorant-infant@4.5.11:
+    resolution: {integrity: sha512-MdfTmgsWV/GfgeTnPMGUTa+GHXTPGhgM6po8GVlmTFSVgfhPl37SrljU26vAjrzhxvlomWGCdsxIQFGdBl7uOw==}
+    dev: false
+
+  /@fontsource/montserrat@4.5.14:
+    resolution: {integrity: sha512-fTvrteVzuFUePhr4QYBGoK8G/YHLJ3IhF1HhKg0AxcFvZajJT7rM7ULdmKLSd2PkX44R3aaFZq1zDbmjbGGI+w==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.8:
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
