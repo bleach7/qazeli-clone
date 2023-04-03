@@ -11,8 +11,12 @@
   "dependencies": {
     "@fontsource/cormorant-infant": "^4.5.11",
     "@fontsource/montserrat": "^4.5.14",
+    "@headlessui/react": "^1.7.13",
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.10.0"
   },
   "devDependencies": {
     "@types/node": "^18.15.11",

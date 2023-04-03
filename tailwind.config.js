@@ -11,6 +11,9 @@ export default {
         montserrat: ["Montserrat, sans-serif", "system-ui"],
         "cormorant-infant": ["Cormorant Infant, serif", "system-ui"],
       },
+      screens: {
+        "3xl": "1600px",
+      },
     },
   },
   plugins: [],
