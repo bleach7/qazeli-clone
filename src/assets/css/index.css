@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.h {
+  height: calc(100% + var(--home-hero-height));
+}
+
 @layer base {
   *::selection {
     @apply bg-[#31BDF8] text-white;
@@ -9,6 +13,8 @@
 
   html {
     @apply scroll-smooth;
+
+    --home-hero-height: 0px;
   }
 
   body::-webkit-scrollbar {

@@ -8,14 +8,14 @@ export const Logo = ({ className }: ILogo) => {
     <Link
       to="/"
       aria-label="Go to home page QAZ ELI"
-      className={classNames("inline-block h-[50px] w-[215px]", className)}
+      className={classNames("inline-block md:h-[50px] md:w-[215px]", className)}
     >
       <img
         src={logoImg}
         width={215}
         height={50}
         alt="QAZ ELI Online Booking"
-        className="h-full w-full object-cover"
+        className="h-full w-full object-contain"
       />
     </Link>
   );

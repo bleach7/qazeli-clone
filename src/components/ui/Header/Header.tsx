@@ -16,30 +16,30 @@ export const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="relative before:absolute before:left-0 before:top-0 before:h-full before:w-full before:bg-[url('/src/assets/imgs/header-bg.jpg')] before:bg-cover before:bg-left-top before:bg-no-repeat before:content-['']">
+    <header className="relative before:absolute before:left-0 before:top-0 before:h-[calc(100%+var(--home-hero-height))] before:w-full before:bg-[url('/src/assets/imgs/header-bg.jpg')] before:bg-cover before:bg-left-top before:bg-no-repeat before:content-['']">
       <Container>
         <div className="pb-[81px] pt-[50px]">
           <div className="relative flex items-center justify-between pb-[30px] before:absolute before:bottom-0 before:left-0 before:h-px before:w-full before:bg-white before:opacity-[0.14] before:content-['']">
             <div className="flex items-center">
-              <Logo className="mr-[89px]" />
+              <Logo className="mr-[30px] 2xl:mr-[89px]" />
               <nav className="text-white">
-                <ul className="flex items-center gap-x-[20px] lg:gap-x-[44px]">
+                <ul className="flex items-center gap-x-[20px] 2xl:gap-x-[44px]">
                   <li>
                     <NavLink to="tours" className="flex w-fit flex-col">
-                      <span className="text-[20px] font-medium leading-[27px]">
+                      <span className="w-fit text-[20px] font-medium leading-[27px]">
                         Поиск туров
                       </span>
-                      <span className="hidden text-[14px] leading-[19px] lg:block">
+                      <span className="hidden text-[14px] leading-[19px] 2xl:block">
                         Найди свое приключение
                       </span>
                     </NavLink>
                   </li>
                   <li>
                     <NavLink to="directions" className="flex w-fit flex-col">
-                      <span className="text-[20px] font-medium leading-[27px]">
+                      <span className="w-fit text-[20px] font-medium leading-[27px]">
                         Направления
                       </span>
-                      <span className="text-[14px] leading-[19px]">
+                      <span className="hidden text-[14px] leading-[19px] 2xl:block">
                         Список популярных направлений
                       </span>
                     </NavLink>
@@ -74,7 +74,7 @@ export const Header = () => {
             </div>
           </div>
           <div className="relative">
-            <ul className="flex items-center gap-x-[30px] pt-[30px] text-[16px] font-medium leading-[21px] text-white">
+            <ul className="flex items-center gap-x-[20px] pt-[30px] text-[16px] font-medium leading-[21px] text-white 2xl:gap-x-[30px]">
               <li>
                 <Link
                   to="excursions"

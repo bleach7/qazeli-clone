@@ -10,12 +10,12 @@ export const Footer = () => {
   return (
     <footer className="bg-[#26333D]">
       <Container>
-        <div className="flex items-start justify-between pb-[44px] pt-[90px]">
-          <div className="max-w-[624px] text-[12px] leading-[16px] text-[#68879E]">
+        <div className="flex flex-col items-start pb-[54px] pt-[40px] md:pb-[44px] md:pt-[90px] lg:flex-row lg:justify-between">
+          <div className="mb-[30px] max-w-[624px] text-[12px] leading-[16px] text-[#68879E] lg:mb-0">
             <div className="mb-[30px] flex items-end">
-              <Logo className="mr-[47px]" />
-              <ul className="flex items-center gap-x-[20px] text-[#EDF2F5]">
-                <li>
+              <Logo className="mr-[47px] h-[29px] w-[107px]" />
+              <ul className="flex items-center gap-x-[20px] text-[#EDF2F5] md:pb-[5px]">
+                <li className="flex">
                   <Link
                     to="#instagram"
                     aria-label="Instagram"
@@ -37,7 +37,7 @@ export const Footer = () => {
             </p>
             <p>Copyright &copy;&nbsp;{year} Qaz Eli</p>
           </div>
-          <ul className="flex max-w-[524px] flex-wrap items-center gap-x-[20px] gap-y-[23px] text-[14px] font-medium leading-[19px] text-[#EDF2F5]">
+          <ul className="flex max-w-[400px] flex-col gap-x-[20px] gap-y-[23px] text-[14px] font-medium leading-[19px] text-[#EDF2F5] sm:flex-row sm:flex-wrap sm:items-center 2xl:max-w-[524px]">
             {FOOTER_NAV_LINKS.map((link, i) => (
               <li key={i}>
                 <Link

@@ -1,0 +1,23 @@
+.hero-recommendation-swiper {
+  position: relative;
+}
+
+.hero-recommendation-swiper .swiper-pagination-horizontal {
+  top: auto;
+  bottom: 74px !important;
+  left: 0 !important;
+
+  height: 2px !important;
+
+  margin-top: 55px;
+
+  background-color: #edf2f5 !important;
+  border-radius: 2px !important;
+}
+
+.hero-recommendation-swiper .swiper-pagination-progressbar-fill {
+  height: 2px !important;
+
+  background-color: #f1e230 !important;
+  border-radius: 2px !important;
+}
