@@ -3,6 +3,8 @@ export * from "./Container";
 export * from "./FixedContacts";
 export * from "./Footer";
 export * from "./Header";
+export * from "./HotelItemPreview";
+export * from "./HotelSlide";
 export * from "./Input";
 export * from "./LangSwitcher";
 export * from "./Link";

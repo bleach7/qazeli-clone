@@ -2,8 +2,11 @@ import { PublicLayout } from "@/layouts";
 import {
   ForgotPassword,
   Home,
+  Hotel,
+  Hotels,
   Login,
   NotFound,
+  SignUp,
   UnderDevelopment,
 } from "@/pages";
 import { createBrowserRouter } from "react-router-dom";
@@ -22,8 +25,20 @@ export const router = createBrowserRouter([
         element: <Login />,
       },
       {
+        path: "/sign-up",
+        element: <SignUp />,
+      },
+      {
         path: "/forgot-password",
         element: <ForgotPassword />,
+      },
+      {
+        path: "/hotels",
+        element: <Hotels />,
+      },
+      {
+        path: "/hotels/:hotelId",
+        element: <Hotel />,
       },
       {
         path: "/tours",

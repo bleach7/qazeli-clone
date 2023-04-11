@@ -1,4 +1,4 @@
-import { RecommendationSlider } from "@/components/pages";
+import { HotelSlider, RecommendationSlider, Search } from "@/components/pages";
 import { Container, MailingForm } from "@/components/ui";
 import { useLayoutEffect } from "react";
 
@@ -39,15 +39,7 @@ export const Home = () => {
           </div>
           <div className="absolute bottom-[120px] left-0 z-10 w-full">
             <Container>
-              <form className="flex items-center drop-shadow-[0px_8px_90px_rgba(0,0,0,0.3)]">
-                <fieldset className="flex-auto rounded-[25px_0_0_25px] bg-white py-[47px] pl-[30px] pr-[84px]"></fieldset>
-                <button
-                  type="submit"
-                  className="inline-block self-stretch rounded-[0_25px_25px_0] bg-[#31BDF8] px-[116px] text-[16px] font-medium leading-[21px] text-white"
-                >
-                  Поиск
-                </button>
-              </form>
+              <Search />
             </Container>
           </div>
         </div>
@@ -62,6 +54,7 @@ export const Home = () => {
           </div>
         </Container>
       </section>
+      <HotelSlider />
       <MailingForm />
     </>
   );

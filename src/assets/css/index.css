@@ -35,10 +35,16 @@
   }
 
   body {
-    @apply bg-white font-montserrat text-[14px] font-normal leading-[19px] text-[#26333D];
+    @apply overflow-overlay bg-white font-montserrat text-[14px] font-normal leading-[19px] text-[#26333D];
   }
 
   #root {
     @apply flex min-h-full flex-col overflow-hidden;
+  }
+}
+
+@layer utilities {
+  .overflow-overlay {
+    overflow: overlay;
   }
 }

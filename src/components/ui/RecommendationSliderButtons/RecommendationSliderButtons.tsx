@@ -5,11 +5,17 @@ import { IRecommendationSliderButtons } from "./RecommendationSliderButtons.inte
 
 export const RecommendationSliderButtons = ({
   currentIndex,
+  className,
 }: IRecommendationSliderButtons) => {
   const swiper = useSwiper();
 
   return (
-    <div className="mt-[80px] flex items-center gap-x-[15px]">
+    <div
+      className={classNames(
+        "mt-[80px] flex items-center gap-x-[15px]",
+        className
+      )}
+    >
       <button
         type="button"
         onClick={() => swiper.slidePrev()}
