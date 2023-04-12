@@ -11,7 +11,9 @@ import {
 import {
   BsCheckLg as CheckIcon,
   BsWhatsapp as WhatsAppIcon,
+  BsWifi2 as WifiIcon,
 } from "react-icons/bs";
+import { FaSwimmingPool as PoolIcon } from "react-icons/fa";
 import { FiUser as UserIcon, FiUsers as UsersIcon } from "react-icons/fi";
 import { GiAirplaneDeparture as AirplaneIcon } from "react-icons/gi";
 import {
@@ -24,7 +26,10 @@ import {
   IoIosArrowForward as ArrowRightIcon,
   IoLogoInstagram as InstagramIcon,
 } from "react-icons/io";
-import { MdOutlineDirectionsRailway as RailwayIcon } from "react-icons/md";
+import {
+  MdFastfood as FoodIcon,
+  MdOutlineDirectionsRailway as RailwayIcon,
+} from "react-icons/md";
 import {
   RiHotelLine as HotelIcon,
   RiUser2Line as AgentUserIcon,
@@ -33,6 +38,7 @@ import { RxCalendar as CalendarIcon } from "react-icons/rx";
 import { TfiLocationPin as LocationIcon } from "react-icons/tfi";
 
 export {
+  WifiIcon,
   InstagramIcon,
   LoginIcon,
   PhoneIcon,
@@ -47,10 +53,12 @@ export {
   UsersIcon,
   AgentUserIcon,
   ArrowLeftIcon,
+  PoolIcon,
   MailIcon,
   CheckIcon,
   KeyIcon,
   EyeOpen,
+  FoodIcon,
   CalendarIcon,
   StarIcon,
   EyeCloseIcon,
